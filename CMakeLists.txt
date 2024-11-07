@@ -1,4 +1,8 @@
 cmake_minimum_required(VERSION 3.16)
+# set pybind11 dir
+set(pybind11_DIR /home/mohit/Documents/temp_vo/RoMa_vo/ff_RoMa_slam/venv/lib/python3.12/site-packages/pybind11/share/cmake/pybind11/)
+find_package(pybind11 REQUIRED)
+
 
 project("Pangolin")
 set(PANGOLIN_VERSION_MAJOR 0)
